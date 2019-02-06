@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace StructsAndEnums
 {
     class Program
-    {
+    {//
         enum Month
         {
             Jan, Feb, Mar, Apr, May, Jun,
