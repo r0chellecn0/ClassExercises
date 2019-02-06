@@ -142,6 +142,17 @@ namespace Julian
             return julianDate;
              
         }
+        public static int JulianDay(int mon, int day)
+        {
+            int[] months = { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30 };
+            int julian = day;
+
+            for (int i = 0; i < mon; i++)
+            {
+                julian += months[i];
+            }
+            return julian;
+        }
         static void Main(string[] args)
         {
             Console.WriteLine($"{JulianDate(2, 3)}");
