@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror", "camelCaseStatemen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorTests", "MirrorTests\MirrorTests.csproj", "{858DE1BC-8CF4-4082-B84E-D45BE880134E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimums", "Minimums\Minimums.csproj", "{D03241CA-66CE-4DDC-BAC6-3097E9878C24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumsTests", "MinimumsTests\MinimumsTests.csproj", "{725BBA00-8836-4681-865D-D835864FAECA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{858DE1BC-8CF4-4082-B84E-D45BE880134E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{858DE1BC-8CF4-4082-B84E-D45BE880134E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{858DE1BC-8CF4-4082-B84E-D45BE880134E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D03241CA-66CE-4DDC-BAC6-3097E9878C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03241CA-66CE-4DDC-BAC6-3097E9878C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03241CA-66CE-4DDC-BAC6-3097E9878C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03241CA-66CE-4DDC-BAC6-3097E9878C24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725BBA00-8836-4681-865D-D835864FAECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725BBA00-8836-4681-865D-D835864FAECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725BBA00-8836-4681-865D-D835864FAECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725BBA00-8836-4681-865D-D835864FAECA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
