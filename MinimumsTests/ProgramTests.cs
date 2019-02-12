@@ -16,6 +16,7 @@ namespace Minimums.Tests
         {
             int[] a = { 324, 123, 2 };
             Assert.AreEqual(2, Program.minVal(a));
+          
         }
     }
 }
