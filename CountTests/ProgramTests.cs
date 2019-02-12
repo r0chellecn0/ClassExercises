@@ -16,7 +16,7 @@ namespace Count.Tests
         {
             Assert.AreEqual(3, CountingLetters.CountVowels("what it is"));
             Assert.AreEqual(2, CountingLetters.CountVowels("eel"));
-            Assert.AreEqual(, CountingLetters.CountVowels("MICRosoft"));
+            Assert.AreEqual(3, CountingLetters.CountVowels("MICRosoft"));
         }
     }
 }
