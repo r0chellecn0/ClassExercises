@@ -28,12 +28,28 @@ namespace whiteboaard
                     }
             return sum;
         }
-        public static void Main(string[] args)
+
+
+        public static int ReturnSum(int number)
         {
-            Console.WriteLine("\n\tSum.Odds.Main()");
-            int testNumber = 5;
-            Console.WriteLine("\t" + CollectSumOdds(testNumber));
-            Console.WriteLine("\t" + CollectSumOdds(0, 9));
+            int sum = 0;
+            for(int i=0; i<= number; i++)
+            {
+                if(i%2==1)
+                {
+                    sum += i;
+                }
+            }
+            return sum;
+        }
+        public static void Main(string[] args)
+            
+        {
+            //Console.WriteLine("\n\tSum.Odds.Main()");
+            //int testNumber = 5;
+            //Console.WriteLine("\t" + CollectSumOdds(testNumber));
+            //Console.WriteLine("\t" + CollectSumOdds(0, 9));
+           // Console.WriteLine(ReturnSum(-16));
             //Console.WriteLine("\t" + CollectSumOdds(5, 25));
             //Console.WriteLine("\t" + CollectSumOdds(0, 50));
             Console.ReadKey();

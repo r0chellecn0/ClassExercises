@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0990415D-5643-47E5-8402-FA8C031AF3F3}</ProjectGuid>
+    <ProjectGuid>{79EC372B-485C-4BDF-BACC-6C2136EF5271}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SumOfOdds</RootNamespace>
-    <AssemblyName>SumOfOdds</AssemblyName>
+    <RootNamespace>UnderstandingNesting</RootNamespace>
+    <AssemblyName>UnderstandingNesting</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SumOdds.cs" />
+    <Compile Include="GradePointAverage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -32,13 +32,14 @@ namespace Mirror
             return true;
 
         }
-        
+       
         static void Main(string[] args)
         {
             Console.WriteLine("Mirror is running");
             Console.WriteLine(ReverseThisPhrase("spice up your life"));
             Console.WriteLine(IsPal("racecar"));
             Console.WriteLine(IsPal("rochelle"));
+
         }
     }
 }
