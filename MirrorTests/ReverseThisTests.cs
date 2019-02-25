@@ -14,8 +14,9 @@ namespace Mirror.Tests
         [TestMethod()]
         public void IsPalTest()
         {
-            Assert.AreEqual("taco cat", ReverseThis.IsPal("taco cat"));
-            Assert.Fail("ellehcor", ReverseThis.IsPal("rochelle"));
+            Assert.AreEqual(false, ReverseThis.IsPal("taco cat"));
+			Assert.AreEqual(true, ReverseThis.IsPal("civic"));
+			Assert.AreEqual(false, ReverseThis.IsPal("rochelle"));
         }
     }
 }

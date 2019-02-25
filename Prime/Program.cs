@@ -10,6 +10,10 @@ namespace Prime
     {
         public static bool IsPrime(int number)
         {
+			if (number <= 0)
+			{
+				return false;
+			}
             for(int i = 2; i<number; i++)
             {
                 if(number%i==0)
@@ -38,6 +42,7 @@ namespace Prime
         public static int CountPrimes(int number)
         {
             int count = 0;
+			
             for (int i=2; i<number; i++)
             {
                 if (IsPrime(i))
@@ -49,8 +54,9 @@ namespace Prime
        
         static void Main(string[] args)
         {
-            SumOfPrimes(12);
-            CountPrimes(9);
+            //SumOfPrimes(12);
+            //CountPrimes(9);
+			IsPrime(-70);
         }
     }
 }

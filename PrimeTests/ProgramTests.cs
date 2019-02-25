@@ -17,7 +17,7 @@ namespace Prime.Tests
             Assert.AreEqual(true, Program.IsPrime(5));
             Assert.AreEqual(false, Program.IsPrime(15));
             Assert.AreEqual(false, Program.IsPrime(14));
-            Assert.AreEqual(false, Program.SumOfPrimes(-70));
+            Assert.AreEqual(false, Program.IsPrime(-70));
         }
 
         [TestMethod()]
