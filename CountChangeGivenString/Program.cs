@@ -38,6 +38,7 @@ namespace CountChangeGivenString
 		}
 		static void Main(string[] args)
 		{
+			Console.WriteLine(2%3);
 			CountChange("QDNPQQDDQQDN");
 		}
 	}

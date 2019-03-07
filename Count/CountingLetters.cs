@@ -25,9 +25,37 @@ namespace Count
             return numVow;
 
         }
+
+		public static string AlphabeticalOrder(string word)
+		{
+			string newWord = word.ToLower();
+			char[] input = newWord.ToArray();
+			string ordWord = "";
+
+			for (int i = 0; i < input.Length - 1; i++)
+			{
+				for (int j = 0; j < input.Length - 1; j++)
+				{
+					if (input[j] > input[j + 1])
+					{
+						char tempVal = input[j];
+						input[j] = input[j + 1];
+						input[j + 1] = tempVal;
+					}
+				}
+			}
+
+			foreach(var letter in input)
+			{
+				ordWord += letter;
+			}
+			Console.WriteLine(ordWord);
+			return ordWord;
+		}
         static void Main(string[] args)
         {
-            CountVowels("LETS coDE");
+            //CountVowels("LETS coDE");
+			AlphabeticalOrder("rochelle");
         }
     }
 }
