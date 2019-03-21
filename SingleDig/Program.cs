@@ -10,7 +10,7 @@ namespace SingleDig
 	public class Program
 	{
 		public static int DoWork(int number)
-		{
+		{   
 			int single = 0;
 
 			if (number > 0)
@@ -24,9 +24,22 @@ namespace SingleDig
 			return single > 9 ? DoWork(single) : single;
 
 		}
+		public static int MoreWork(int number)
+		{
+			int add=0;
+			while(number>0)
+			{
+				add += number % 10;
+				number /= 10;
+				
+			}
+			return add > 9 ? MoreWork(add) : add;
+		}
+
 		static void Main(string[] args)
 		{
-			Console.WriteLine(DoWork(4532)	); 
+			//Console.WriteLine(DoWork(4532)	);
+			Console.WriteLine(MoreWork(8675309));
 
 		}
 	}

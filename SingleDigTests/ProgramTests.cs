@@ -17,5 +17,9 @@ namespace SingleDig.Tests
 			Assert.AreEqual(5, Program.DoWork(4532));
 			Assert.AreEqual(0, Program.DoWork(-4532));
 		}
+		public void MoreWork()
+		{
+			Assert.AreEqual(2, Program.MoreWork(8675309));
+		}
 	}
 }
