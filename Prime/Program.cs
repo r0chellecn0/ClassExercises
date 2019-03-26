@@ -51,12 +51,40 @@ namespace Prime
             Console.WriteLine(count);
             return count;
         }
+
+		public static bool isPrimeQ(int num)
+		{
+			for(int i=2; i<num; i++)
+			{
+				if (num % i == 0)
+				{
+					return false;
+				}
+			}
+			return true;
+		}
+
+		public static int sumOfNums(int num)
+		{
+			int sum = 0;
+			for (int i=2; i<=num; i++)
+			{
+				if (isPrimeQ(i))
+				{
+					sum += i;
+				}
+			}
+			Console.WriteLine(sum);
+			return sum;
+		}
        
         static void Main(string[] args)
         {
             //SumOfPrimes(12);
             //CountPrimes(9);
-			IsPrime(-70);
+			//IsPrime(-70);
+			isPrimeQ(9);
+			sumOfNums(200);
         }
     }
 }

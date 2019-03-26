@@ -52,10 +52,13 @@ namespace Count
 			Console.WriteLine(ordWord);
 			return ordWord;
 		}
+
+
         static void Main(string[] args)
         {
-            //CountVowels("LETS coDE");
+			CountVowels("LETS coDE");
 			AlphabeticalOrder("rochelle");
+			
         }
     }
 }
